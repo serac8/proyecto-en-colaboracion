@@ -2,4 +2,16 @@
 comment0.target=Bici
 comment1.params=kilometrosRecorridos\ marcaBici\ ruedasBici
 comment1.target=Bici(int,\ java.lang.String,\ Ruedas)
-numComments=2
+comment2.params=
+comment2.target=int\ getkilometros()
+comment3.params=
+comment3.target=java.lang.String\ getmarca()
+comment4.params=
+comment4.target=Ruedas\ getruedas()
+comment5.params=kilometrosRecorridos
+comment5.target=void\ setkilometrosRecorridos(int)
+comment6.params=nuevaMarca
+comment6.target=void\ setnuevaMarca(java.lang.String)
+comment7.params=nuevasRuedas
+comment7.target=void\ setnuevasRuedas(Ruedas)
+numComments=8

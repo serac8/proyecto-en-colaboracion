@@ -11,4 +11,29 @@ public class Bici {
        ruedas = ruedasBici;
     }
    
+    
+    
+    public int getkilometros() {
+        return kilometros;
+    }
+    
+    public String getmarca() {
+        return marca;
+    }
+    
+    public Ruedas getruedas() {
+        return ruedas;
+    }
+    
+    public void setkilometrosRecorridos(int kilometrosRecorridos) {
+        kilometros = kilometrosRecorridos; 
+    }
+    
+    public void setnuevaMarca(String nuevaMarca) {
+        marca = nuevaMarca;
+    }
+    
+    public void setnuevasRuedas(Ruedas nuevasRuedas) {
+        ruedas = nuevasRuedas;
+    }
 }
