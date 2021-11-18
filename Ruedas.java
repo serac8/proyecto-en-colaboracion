@@ -24,4 +24,12 @@ public class Ruedas {
     public void setRuedasGastadas(boolean ruedasNuevas){
         gastadas = ruedasNuevas;
     }
+
+    public void imprimeDetalles() {
+        System.out.println("Marca: " + marca + "  |  " + "Gastadas: " + gastadas);
+    
+    }
+
+
+
 }

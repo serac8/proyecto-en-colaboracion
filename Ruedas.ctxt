@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Ruedas
+comment1.params=marcaBici\ ruedasGastadas
+comment1.target=Ruedas(java.lang.String,\ boolean)
+comment2.params=
+comment2.target=java.lang.String\ getMarcaBici()
+comment3.params=
+comment3.target=boolean\ getRuedasGastadas()
+comment4.params=marcaNueva
+comment4.target=void\ setMarcaNueva(java.lang.String)
+comment5.params=ruedasNuevas
+comment5.target=void\ setRuedasGastadas(boolean)
+comment6.params=
+comment6.target=void\ imprimeDetalles()
+numComments=7
