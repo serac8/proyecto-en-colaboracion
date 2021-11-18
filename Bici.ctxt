@@ -1,5 +1,5 @@
 #BlueJ class context
 comment0.target=Bici
-comment1.params=kilometrosRecorridos\ marcaBici
-comment1.target=Bici(int,\ java.lang.String)
+comment1.params=kilometrosRecorridos\ marcaBici\ ruedasBici
+comment1.target=Bici(int,\ java.lang.String,\ Ruedas)
 numComments=2

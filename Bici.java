@@ -5,15 +5,10 @@ public class Bici {
     private Ruedas ruedas;
     
     
-    public Bici(int kilometrosRecorridos, String marcaBici) {
-       kilometrosRecorridos = kilometros;
-       marcaBici = marca;
-       
+    public Bici(int kilometrosRecorridos, String marcaBici, Ruedas ruedasBici) {
+       kilometros = kilometrosRecorridos;
+       marca = marcaBici;
+       ruedas = ruedasBici;
     }
    
 }
-
-    
-    
-    
-    
