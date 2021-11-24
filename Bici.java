@@ -36,4 +36,8 @@ public class Bici {
     public void setnuevasRuedas(Ruedas nuevasRuedas) {
         ruedas = nuevasRuedas;
     }
+    
+    public void imprimirDetalles(){
+        System.out.println("Kilometros recorridos: "+kilometros+ " - Marca: "+ marca + " - Ruedas marca: "+ ruedas.getMarcaBici()+ " - Ruedas gastadas: "+ ruedas.getRuedasGastadas());
+    }
 }
