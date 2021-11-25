@@ -43,7 +43,12 @@ public class Bici {
         System.out.println("Kilometros recorridos: "+kilometros+ " - Marca: "+ marca + " - Ruedas marca: "+ ruedas.getMarcaBici()+ " - Ruedas gastadas: "+ ruedas.getRuedasGastadas() + ". Bici de montaña: " + deMontaña);
     }
    
-    public void setDeMontaña(boolean biciDeMontaña){
-        deMontaña = biciDeMontaña;
+    public void setDeMontaña(){
+        if (deMontaña == true){
+            deMontaña = false;
+        }
+        else{
+            deMontaña = true;
+        }
     }
 }
